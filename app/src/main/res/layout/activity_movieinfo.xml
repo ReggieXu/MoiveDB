@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.udayton.moivedb.movieinfo">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/movie_image_2"-->
+        <!--android:layout_width="185dp"-->
+        <!--android:layout_height="280dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="27dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/movie_name_2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/movie_image_2"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="Movie Name"-->
+        <!--android:textSize="20dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/movie_review"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="123"-->
+        <!--android:layout_below="@+id/movie_name_2"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <fragment
+        android:id="@+id/Infofragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="edu.udayton.moivedb.moviefragment.InfoFragment"/>
+
+</RelativeLayout>
